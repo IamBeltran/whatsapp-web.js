@@ -7,6 +7,7 @@ exports.DefaultOptions = {
         headless: true,
         defaultViewport: null
     },
+    restartOnAuthFail: false,
     session: false,
     qrTimeoutMs: 45000,
     qrRefreshIntervalMs: 20000,
